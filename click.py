@@ -18,8 +18,8 @@ def click(x, f):
 
         if '÷' in equation:
             equation = equation.replace('÷', '/')
-        if 'x' in equation:
-            equation = equation.replace('x', '*')
+        if '×' in equation:
+            equation = equation.replace('×', '*')
         click('AC', f)
 
         try:

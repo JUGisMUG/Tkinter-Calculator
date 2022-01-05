@@ -39,7 +39,7 @@ button0.grid(column=1, row=4)
 symbols = {
     "plus": '+',
     "negative": '-',
-    "multiply": 'x',
+    "multiply": '×',
     "division": '÷'
 }
 
