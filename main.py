@@ -57,10 +57,4 @@ equal_button.grid(column=0, row=6, columnspan=4)
 
 frm.pack(fill=BOTH, expand=1)
 
-frm.update()
-root.update()
-print(root.winfo_height())
-print(root.winfo_width())
-
-
 root.mainloop()
